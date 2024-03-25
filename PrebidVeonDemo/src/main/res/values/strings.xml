@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">Prebid Veon Demo</string>
+
+    <string name="integration_kind">Integration</string>
+    <string name="ad_format">Format</string>
+    <string name="refresh_time_sec">Refresh Time Seconds</string>
+
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
+    <string name="settings_text">Demonstration of Prebid SDK customization in the Demo App will be introduced soon.</string>
+    <string name="show_banner">Run</string>
+
+</resources>

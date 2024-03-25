@@ -1,0 +1,55 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/kretsu/StudioProjects/prebid-android-sdk/PrebidMobile/PrebidMobile-core/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/kretsu/StudioProjects/prebid-android-sdk/PrebidMobile/PrebidMobile-core/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/kretsu/StudioProjects/prebid-android-sdk/PrebidMobile/PrebidMobile-core/src/main/AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from /Users/kretsu/StudioProjects/prebid-android-sdk/PrebidMobile/PrebidMobile-core/src/main/AndroidManifest.xml:4:5-37
+		INJECTED from /Users/kretsu/StudioProjects/prebid-android-sdk/PrebidMobile/PrebidMobile-core/src/main/AndroidManifest.xml
+		INJECTED from /Users/kretsu/StudioProjects/prebid-android-sdk/PrebidMobile/PrebidMobile-core/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/kretsu/StudioProjects/prebid-android-sdk/PrebidMobile/PrebidMobile-core/src/main/AndroidManifest.xml:3:5-63
+uses-permission#android.permission.INTERNET
+ADDED from /Users/kretsu/StudioProjects/prebid-android-sdk/PrebidMobile/PrebidMobile-core/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /Users/kretsu/StudioProjects/prebid-android-sdk/PrebidMobile/PrebidMobile-core/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/kretsu/StudioProjects/prebid-android-sdk/PrebidMobile/PrebidMobile-core/src/main/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from /Users/kretsu/StudioProjects/prebid-android-sdk/PrebidMobile/PrebidMobile-core/src/main/AndroidManifest.xml:7:22-76
+application
+ADDED from /Users/kretsu/StudioProjects/prebid-android-sdk/PrebidMobile/PrebidMobile-core/src/main/AndroidManifest.xml:10:5-21:19
+uses-library#org.apache.http.legacy
+ADDED from /Users/kretsu/StudioProjects/prebid-android-sdk/PrebidMobile/PrebidMobile-core/src/main/AndroidManifest.xml:11:9-13:40
+	android:required
+		ADDED from /Users/kretsu/StudioProjects/prebid-android-sdk/PrebidMobile/PrebidMobile-core/src/main/AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from /Users/kretsu/StudioProjects/prebid-android-sdk/PrebidMobile/PrebidMobile-core/src/main/AndroidManifest.xml:12:13-50
+activity#org.prebid.mobile.rendering.views.browser.AdBrowserActivity
+ADDED from /Users/kretsu/StudioProjects/prebid-android-sdk/PrebidMobile/PrebidMobile-core/src/main/AndroidManifest.xml:14:9-20:50
+	android:launchMode
+		ADDED from /Users/kretsu/StudioProjects/prebid-android-sdk/PrebidMobile/PrebidMobile-core/src/main/AndroidManifest.xml:20:17-47
+	android:windowSoftInputMode
+		ADDED from /Users/kretsu/StudioProjects/prebid-android-sdk/PrebidMobile/PrebidMobile-core/src/main/AndroidManifest.xml:19:17-68
+	android:exported
+		ADDED from /Users/kretsu/StudioProjects/prebid-android-sdk/PrebidMobile/PrebidMobile-core/src/main/AndroidManifest.xml:15:17-40
+	android:configChanges
+		ADDED from /Users/kretsu/StudioProjects/prebid-android-sdk/PrebidMobile/PrebidMobile-core/src/main/AndroidManifest.xml:17:17-78
+	android:theme
+		ADDED from /Users/kretsu/StudioProjects/prebid-android-sdk/PrebidMobile/PrebidMobile-core/src/main/AndroidManifest.xml:18:17-76
+	android:name
+		ADDED from /Users/kretsu/StudioProjects/prebid-android-sdk/PrebidMobile/PrebidMobile-core/src/main/AndroidManifest.xml:16:17-91
+uses-sdk
+INJECTED from /Users/kretsu/StudioProjects/prebid-android-sdk/PrebidMobile/PrebidMobile-core/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/kretsu/StudioProjects/prebid-android-sdk/PrebidMobile/PrebidMobile-core/src/main/AndroidManifest.xml
+INJECTED from /Users/kretsu/StudioProjects/prebid-android-sdk/PrebidMobile/PrebidMobile-core/src/main/AndroidManifest.xml
+INJECTED from /Users/kretsu/StudioProjects/prebid-android-sdk/PrebidMobile/PrebidMobile-core/src/main/AndroidManifest.xml
+INJECTED from /Users/kretsu/StudioProjects/prebid-android-sdk/PrebidMobile/PrebidMobile-core/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/kretsu/StudioProjects/prebid-android-sdk/PrebidMobile/PrebidMobile-core/src/main/AndroidManifest.xml
+		ADDED from /Users/kretsu/StudioProjects/prebid-android-sdk/PrebidMobile/PrebidMobile-core/src/main/AndroidManifest.xml
+		INJECTED from /Users/kretsu/StudioProjects/prebid-android-sdk/PrebidMobile/PrebidMobile-core/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/kretsu/StudioProjects/prebid-android-sdk/PrebidMobile/PrebidMobile-core/src/main/AndroidManifest.xml
+		ADDED from /Users/kretsu/StudioProjects/prebid-android-sdk/PrebidMobile/PrebidMobile-core/src/main/AndroidManifest.xml
+		INJECTED from /Users/kretsu/StudioProjects/prebid-android-sdk/PrebidMobile/PrebidMobile-core/src/main/AndroidManifest.xml

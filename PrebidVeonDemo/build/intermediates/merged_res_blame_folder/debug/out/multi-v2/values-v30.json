@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.prebid.veondemo.PrebidVeonDemo-mergeDebugResources-44:/values-v30/values-v30.xml",
+            "map": [
+                {
+                    "source": "/Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile-core/build/intermediates/packaged_res/debug/values-v30/values-v30.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "705"
+                    }
+                }
+            ]
+        }
+    ]
+}

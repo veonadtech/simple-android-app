@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "org.prebid.veondemo.PrebidVeonDemo-merged_res-46:/layout_view_native_ad_max.xml.flat",
+        "source": "org.prebid.veondemo.PrebidVeonDemo-main-48:/layout/view_native_ad_max.xml"
+    },
+    {
+        "merged": "org.prebid.veondemo.PrebidVeonDemo-merged_res-46:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "org.prebid.veondemo.PrebidVeonDemo-main-48:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "org.prebid.veondemo.PrebidVeonDemo-merged_res-46:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "org.prebid.veondemo.PrebidVeonDemo-main-48:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "org.prebid.veondemo.PrebidVeonDemo-merged_res-46:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "org.prebid.veondemo.PrebidVeonDemo-main-48:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "org.prebid.veondemo.PrebidVeonDemo-merged_res-46:/layout_activity_settings.xml.flat",
+        "source": "org.prebid.veondemo.PrebidVeonDemo-main-48:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "org.prebid.veondemo.PrebidVeonDemo-merged_res-46:/layout_list_item_ad_type.xml.flat",
+        "source": "org.prebid.veondemo.PrebidVeonDemo-main-48:/layout/list_item_ad_type.xml"
+    },
+    {
+        "merged": "org.prebid.veondemo.PrebidVeonDemo-merged_res-46:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "org.prebid.veondemo.PrebidVeonDemo-main-48:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "org.prebid.veondemo.PrebidVeonDemo-merged_res-46:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "org.prebid.veondemo.PrebidVeonDemo-main-48:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "org.prebid.veondemo.PrebidVeonDemo-merged_res-46:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "org.prebid.veondemo.PrebidVeonDemo-main-48:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "org.prebid.veondemo.PrebidVeonDemo-merged_res-46:/layout_layout_native.xml.flat",
+        "source": "org.prebid.veondemo.PrebidVeonDemo-main-48:/layout/layout_native.xml"
+    },
+    {
+        "merged": "org.prebid.veondemo.PrebidVeonDemo-merged_res-46:/layout_view_native_ad_ad_mob.xml.flat",
+        "source": "org.prebid.veondemo.PrebidVeonDemo-main-48:/layout/view_native_ad_ad_mob.xml"
+    },
+    {
+        "merged": "org.prebid.veondemo.PrebidVeonDemo-merged_res-46:/menu_main_menu.xml.flat",
+        "source": "org.prebid.veondemo.PrebidVeonDemo-main-48:/menu/main_menu.xml"
+    },
+    {
+        "merged": "org.prebid.veondemo.PrebidVeonDemo-merged_res-46:/xml_network_security_config.xml.flat",
+        "source": "org.prebid.veondemo.PrebidVeonDemo-main-48:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "org.prebid.veondemo.PrebidVeonDemo-merged_res-46:/layout_activity_demo.xml.flat",
+        "source": "org.prebid.veondemo.PrebidVeonDemo-main-48:/layout/activity_demo.xml"
+    },
+    {
+        "merged": "org.prebid.veondemo.PrebidVeonDemo-merged_res-46:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "org.prebid.veondemo.PrebidVeonDemo-main-48:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "org.prebid.veondemo.PrebidVeonDemo-merged_res-46:/drawable_ic_launcher_background.xml.flat",
+        "source": "org.prebid.veondemo.PrebidVeonDemo-main-48:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "org.prebid.veondemo.PrebidVeonDemo-merged_res-46:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "org.prebid.veondemo.PrebidVeonDemo-main-48:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "org.prebid.veondemo.PrebidVeonDemo-merged_res-46:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "org.prebid.veondemo.PrebidVeonDemo-main-48:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "org.prebid.veondemo.PrebidVeonDemo-merged_res-46:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "org.prebid.veondemo.PrebidVeonDemo-main-48:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "org.prebid.veondemo.PrebidVeonDemo-merged_res-46:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "org.prebid.veondemo.PrebidVeonDemo-main-48:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "org.prebid.veondemo.PrebidVeonDemo-merged_res-46:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "org.prebid.veondemo.PrebidVeonDemo-main-48:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "org.prebid.veondemo.PrebidVeonDemo-merged_res-46:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "org.prebid.veondemo.PrebidVeonDemo-main-48:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "org.prebid.veondemo.PrebidVeonDemo-merged_res-46:/layout_activity_main.xml.flat",
+        "source": "org.prebid.veondemo.PrebidVeonDemo-main-48:/layout/activity_main.xml"
+    },
+    {
+        "merged": "org.prebid.veondemo.PrebidVeonDemo-merged_res-46:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "org.prebid.veondemo.PrebidVeonDemo-main-48:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "org.prebid.veondemo.PrebidVeonDemo-merged_res-46:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "org.prebid.veondemo.PrebidVeonDemo-main-48:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "org.prebid.veondemo.PrebidVeonDemo-merged_res-46:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "org.prebid.veondemo.PrebidVeonDemo-main-48:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "org.prebid.veondemo.PrebidVeonDemo-merged_res-46:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "org.prebid.veondemo.PrebidVeonDemo-main-48:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "org.prebid.veondemo.PrebidVeonDemo-merged_res-46:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "org.prebid.veondemo.PrebidVeonDemo-pngs-41:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    }
+]

@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.prebid.veondemo.PrebidVeonDemo-mergeDebugResources-44:/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "/Users/kretsu/.gradle/caches/transforms-3/feefcf42ad0a0bb661481570e82dea9b/transformed/appcompat-1.3.0/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
+                    },
+                    "to": {
+                        "startLines": "6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "245,315,399,483,579,681,783,877",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "310,394,478,574,676,778,872,961"
+                    }
+                },
+                {
+                    "source": "/Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/res/values-night/colors.xml",
+                    "from": {
+                        "startLines": "5,6,2,3",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "154,196,55,102",
+                        "endColumns": "41,49,46,50",
+                        "endOffsets": "191,241,97,148"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,97,147,194",
+                        "endColumns": "41,49,46,50",
+                        "endOffsets": "92,142,189,240"
+                    }
+                }
+            ]
+        }
+    ]
+}

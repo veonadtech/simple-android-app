@@ -1,0 +1,601 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.prebid.veondemo"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml
+10
+11    <!-- Required permissions -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:6:5-66
+12-->/Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:7:5-78
+13-->/Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:7:22-76
+14
+15    <!-- Optional permissions. Will pass Lat/Lon values when available. Choose either Coarse or Fine -->
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->/Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:10:5-80
+16-->/Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:10:22-78
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->/Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:11:5-78
+17-->/Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:11:22-76
+18
+19    <!-- Optional permissions. Used for MRAID 2.0 storePicture ads -->
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->/Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:14:5-80
+20-->/Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:14:22-78
+21
+22    <queries>
+22-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:11:5-15:15
+23        <intent>
+23-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:12:9-14:18
+24            <action android:name="com.applovin.am.intent.action.APPHUB_SERVICE" />
+24-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:13:13-83
+24-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:13:21-80
+25        </intent>
+26        <!-- For browser content -->
+27        <intent>
+27-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:38:9-44:18
+28            <action android:name="android.intent.action.VIEW" />
+28-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:39:13-65
+28-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:39:21-62
+29
+30            <category android:name="android.intent.category.BROWSABLE" />
+30-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:41:13-74
+30-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:41:23-71
+31
+32            <data android:scheme="https" />
+32-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:43:13-44
+32-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:43:19-41
+33        </intent> <!-- End of browser content -->
+34        <!-- For CustomTabsService -->
+35        <intent>
+35-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:47:9-49:18
+36            <action android:name="android.support.customtabs.action.CustomTabsService" />
+36-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:48:13-90
+36-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:48:21-87
+37        </intent>
+38        <intent>
+38-->[androidx.media:media:1.3.1] /Users/kretsu/.gradle/caches/transforms-3/dfa139fa88956324d5fefecbac030e12/transformed/media-1.3.1/AndroidManifest.xml:25:9-27:18
+39            <action android:name="android.media.browse.MediaBrowserService" />
+39-->[androidx.media:media:1.3.1] /Users/kretsu/.gradle/caches/transforms-3/dfa139fa88956324d5fefecbac030e12/transformed/media-1.3.1/AndroidManifest.xml:26:13-79
+39-->[androidx.media:media:1.3.1] /Users/kretsu/.gradle/caches/transforms-3/dfa139fa88956324d5fefecbac030e12/transformed/media-1.3.1/AndroidManifest.xml:26:21-76
+40        </intent>
+41    </queries>
+42
+43    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+43-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:19:5-79
+43-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:19:22-76
+44    <uses-permission android:name="com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE" /> <!-- Permissions required by Open Measurement SDK -->
+44-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:20:5-96
+44-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:20:22-93
+45    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+45-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:23:5-76
+45-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:23:22-73
+46    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+46-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:27:5-82
+46-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:27:22-79
+47    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+47-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:28:5-88
+47-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:28:22-85
+48    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_TOPICS" />
+48-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:29:5-83
+48-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:29:22-80
+49    <uses-permission android:name="android.permission.WAKE_LOCK" />
+49-->[com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/kretsu/.gradle/caches/transforms-3/b78ff91f83182cf46e11a36667a7a2ed/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:25:5-68
+49-->[com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/kretsu/.gradle/caches/transforms-3/b78ff91f83182cf46e11a36667a7a2ed/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:25:22-65
+50    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+50-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:28:5-77
+50-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:28:22-74
+51
+52    <application
+52-->/Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:16:5-44:19
+53        android:name="org.prebid.veondemo.Demo"
+53-->/Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:17:9-29
+54        android:allowBackup="true"
+54-->/Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:18:9-35
+55        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+55-->[androidx.core:core:1.8.0] /Users/kretsu/.gradle/caches/transforms-3/c8447b065dcc7232cc0948048f045f03/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+56        android:debuggable="true"
+57        android:icon="@mipmap/ic_launcher"
+57-->/Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:19:9-43
+58        android:label="@string/app_name"
+58-->/Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:20:9-41
+59        android:networkSecurityConfig="@xml/network_security_config"
+59-->/Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:23:9-69
+60        android:roundIcon="@mipmap/ic_launcher_round"
+60-->/Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:21:9-54
+61        android:supportsRtl="true"
+61-->/Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:22:9-35
+62        android:testOnly="true"
+63        android:theme="@style/AppTheme" >
+63-->/Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:24:9-40
+64        <meta-data
+64-->/Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:26:9-28:70
+65            android:name="com.google.android.gms.ads.APPLICATION_ID"
+65-->/Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:27:13-69
+66            android:value="ca-app-pub-2361816323951755~4698107576" />
+66-->/Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:28:13-67
+67        <meta-data
+67-->/Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:30:9-32:118
+68            android:name="applovin.sdk.key"
+68-->/Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:31:13-44
+69            android:value="1tLUnP4cVQqpHuHH2yMtfdESvvUhTB05NdbCoDTceDDNVnhd_T8kwIzXDN9iwbdULTboByF-TtNaiTmsoVbxZw" />
+69-->/Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:32:13-115
+70
+71        <activity
+71-->/Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:34:9-42:20
+72            android:name="org.prebid.veondemo.activities.MainActivity"
+72-->/Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:35:13-71
+73            android:exported="true" >
+73-->/Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:36:13-36
+74            <intent-filter>
+74-->/Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:37:13-41:29
+75                <action android:name="android.intent.action.MAIN" />
+75-->/Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:38:17-69
+75-->/Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:38:25-66
+76
+77                <category android:name="android.intent.category.LAUNCHER" />
+77-->/Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:40:17-77
+77-->/Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:40:27-74
+78            </intent-filter>
+79        </activity>
+80
+81        <uses-library
+81-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/kretsu/.gradle/caches/transforms-3/3eff2d1e2d4360f3b9bca6c1707748d7/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
+82            android:name="android.ext.adservices"
+82-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/kretsu/.gradle/caches/transforms-3/3eff2d1e2d4360f3b9bca6c1707748d7/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
+83            android:required="false" />
+83-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/kretsu/.gradle/caches/transforms-3/3eff2d1e2d4360f3b9bca6c1707748d7/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
+84
+85        <meta-data
+85-->[com.google.android.exoplayer:extension-ima:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/1fd16406766283c83a70741e76e25ad2/transformed/jetified-extension-ima-2.15.1/AndroidManifest.xml:25:9-27:36
+86            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+86-->[com.google.android.exoplayer:extension-ima:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/1fd16406766283c83a70741e76e25ad2/transformed/jetified-extension-ima-2.15.1/AndroidManifest.xml:26:13-69
+87            android:value="true" />
+87-->[com.google.android.exoplayer:extension-ima:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/1fd16406766283c83a70741e76e25ad2/transformed/jetified-extension-ima-2.15.1/AndroidManifest.xml:27:13-33
+88        <meta-data
+88-->[com.google.android.exoplayer:extension-ima:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/1fd16406766283c83a70741e76e25ad2/transformed/jetified-extension-ima-2.15.1/AndroidManifest.xml:28:9-30:69
+89            android:name="com.google.android.gms.version"
+89-->[com.google.android.exoplayer:extension-ima:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/1fd16406766283c83a70741e76e25ad2/transformed/jetified-extension-ima-2.15.1/AndroidManifest.xml:29:13-58
+90            android:value="@integer/google_play_services_version" />
+90-->[com.google.android.exoplayer:extension-ima:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/1fd16406766283c83a70741e76e25ad2/transformed/jetified-extension-ima-2.15.1/AndroidManifest.xml:30:13-66
+91
+92        <provider
+92-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:26:9-30:39
+93            android:name="com.applovin.sdk.AppLovinInitProvider"
+93-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:27:13-65
+94            android:authorities="org.prebid.veondemo.applovininitprovider"
+94-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:28:13-72
+95            android:exported="false"
+95-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:29:13-37
+96            android:initOrder="101" /> <!-- Init order is 101 so we're before Firebase/Google which uses 100 -->
+96-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:30:13-36
+97        <activity
+97-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:32:9-38:50
+98            android:name="com.applovin.adview.AppLovinFullscreenActivity"
+98-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:33:13-74
+99            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+99-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:34:13-139
+100            android:exported="false"
+100-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:35:13-37
+101            android:hardwareAccelerated="true"
+101-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:36:13-47
+102            android:launchMode="singleTop"
+102-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:37:13-43
+103            android:screenOrientation="behind" />
+103-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:38:13-47
+104        <activity
+104-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:39:9-41:142
+105            android:name="com.applovin.sdk.AppLovinWebViewActivity"
+105-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:40:13-68
+106            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" /> <!-- Hybrid Ad Activities -->
+106-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:41:13-139
+107        <activity
+107-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:44:9-46:142
+108            android:name="com.applovin.mediation.hybridAds.MaxHybridMRecAdActivity"
+108-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:45:13-84
+109            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" />
+109-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:46:13-139
+110        <activity
+110-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:47:9-49:142
+111            android:name="com.applovin.mediation.hybridAds.MaxHybridNativeAdActivity"
+111-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:48:13-86
+112            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" /> <!-- Mediation Debugger Activities -->
+112-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:49:13-139
+113        <activity
+113-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:52:9-55:87
+114            android:name="com.applovin.mediation.MaxDebuggerActivity"
+114-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:53:13-70
+115            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+115-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:54:13-139
+116            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+116-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:55:13-84
+117        <activity
+117-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:56:9-59:87
+118            android:name="com.applovin.mediation.MaxDebuggerDetailActivity"
+118-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:57:13-76
+119            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+119-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:58:13-139
+120            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+120-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:59:13-84
+121        <activity
+121-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:60:9-63:87
+122            android:name="com.applovin.mediation.MaxDebuggerMultiAdActivity"
+122-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:61:13-77
+123            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+123-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:62:13-139
+124            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+124-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:63:13-84
+125        <activity
+125-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:64:9-67:87
+126            android:name="com.applovin.mediation.MaxDebuggerAdUnitsListActivity"
+126-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:65:13-81
+127            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+127-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:66:13-139
+128            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+128-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:67:13-84
+129        <activity
+129-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:68:9-71:87
+130            android:name="com.applovin.mediation.MaxDebuggerAdUnitDetailActivity"
+130-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:69:13-82
+131            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+131-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:70:13-139
+132            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+132-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:71:13-84
+133        <activity
+133-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:72:9-75:87
+134            android:name="com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity"
+134-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:73:13-85
+135            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+135-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:74:13-139
+136            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" />
+136-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:75:13-84
+137        <activity
+137-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:76:9-79:87
+138            android:name="com.applovin.mediation.MaxDebuggerTestModeNetworkActivity"
+138-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:77:13-85
+139            android:configChanges="fontScale|keyboard|keyboardHidden|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+139-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:78:13-139
+140            android:theme="@style/com.applovin.mediation.MaxDebuggerActivity.Theme" /> <!-- Services -->
+140-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:79:13-84
+141        <service
+141-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:82:9-85:44
+142            android:name="com.applovin.impl.sdk.utils.AppKilledService"
+142-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:83:13-72
+143            android:exported="false"
+143-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:84:13-37
+144            android:stopWithTask="false" />
+144-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:85:13-41
+145        <service
+145-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:86:9-89:44
+146            android:name="com.applovin.impl.adview.activity.FullscreenAdService"
+146-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:87:13-81
+147            android:exported="false"
+147-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:88:13-37
+148            android:stopWithTask="false" />
+148-->[com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:89:13-41
+149
+150        <uses-library
+150-->[:PrebidMobile-core] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:40
+151            android:name="org.apache.http.legacy"
+151-->[:PrebidMobile-core] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-50
+152            android:required="false" />
+152-->[:PrebidMobile-core] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+153
+154        <activity
+154-->[:PrebidMobile-core] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-24:67
+155            android:name="org.prebid.mobile.rendering.views.browser.AdBrowserActivity"
+155-->[:PrebidMobile-core] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-87
+156            android:configChanges="orientation|screenSize|keyboardHidden"
+156-->[:PrebidMobile-core] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-74
+157            android:exported="true"
+157-->[:PrebidMobile-core] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-36
+158            android:launchMode="singleTop"
+158-->[:PrebidMobile-core] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-43
+159            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+159-->[:PrebidMobile-core] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-72
+160            android:windowSoftInputMode="adjustPan|stateHidden" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+160-->[:PrebidMobile-core] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-64
+161        <activity
+161-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:56:9-61:43
+162            android:name="com.google.android.gms.ads.AdActivity"
+162-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:57:13-65
+163            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+163-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:58:13-122
+164            android:exported="false"
+164-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:59:13-37
+165            android:theme="@android:style/Theme.Translucent" />
+165-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:60:13-61
+166
+167        <provider
+167-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:63:9-68:43
+168            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+168-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:64:13-76
+169            android:authorities="org.prebid.veondemo.mobileadsinitprovider"
+169-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:65:13-73
+170            android:exported="false"
+170-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:66:13-37
+171            android:initOrder="100" />
+171-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:67:13-36
+172
+173        <service
+173-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:70:9-74:43
+174            android:name="com.google.android.gms.ads.AdService"
+174-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:71:13-64
+175            android:enabled="true"
+175-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:72:13-35
+176            android:exported="false" />
+176-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:73:13-37
+177
+178        <activity
+178-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:76:9-80:43
+179            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
+179-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:77:13-82
+180            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+180-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:78:13-122
+181            android:exported="false" />
+181-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:79:13-37
+182        <activity
+182-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:81:9-88:43
+183            android:name="com.google.android.gms.ads.NotificationHandlerActivity"
+183-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:82:13-82
+184            android:excludeFromRecents="true"
+184-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:83:13-46
+185            android:exported="false"
+185-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:84:13-37
+186            android:launchMode="singleTask"
+186-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:85:13-44
+187            android:taskAffinity=""
+187-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:86:13-36
+188            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+188-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:87:13-72
+189
+190        <property
+190-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:90:9-92:62
+191            android:name="android.adservices.AD_SERVICES_CONFIG"
+191-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:91:13-65
+192            android:resource="@xml/gma_ad_services_config" />
+192-->[com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:92:13-59
+193
+194        <activity
+194-->[com.google.android.gms:play-services-base:18.1.0] /Users/kretsu/.gradle/caches/transforms-3/66bb5e29d5ddcfaed207df4b8ff1d212/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+195            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+195-->[com.google.android.gms:play-services-base:18.1.0] /Users/kretsu/.gradle/caches/transforms-3/66bb5e29d5ddcfaed207df4b8ff1d212/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+196            android:exported="false"
+196-->[com.google.android.gms:play-services-base:18.1.0] /Users/kretsu/.gradle/caches/transforms-3/66bb5e29d5ddcfaed207df4b8ff1d212/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+197            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+197-->[com.google.android.gms:play-services-base:18.1.0] /Users/kretsu/.gradle/caches/transforms-3/66bb5e29d5ddcfaed207df4b8ff1d212/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+198
+199        <uses-library
+199-->[androidx.window:window:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/7da06a65f0da853f847ffe05942799c5/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+200            android:name="androidx.window.extensions"
+200-->[androidx.window:window:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/7da06a65f0da853f847ffe05942799c5/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+201            android:required="false" />
+201-->[androidx.window:window:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/7da06a65f0da853f847ffe05942799c5/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+202        <uses-library
+202-->[androidx.window:window:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/7da06a65f0da853f847ffe05942799c5/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+203            android:name="androidx.window.sidecar"
+203-->[androidx.window:window:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/7da06a65f0da853f847ffe05942799c5/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+204            android:required="false" />
+204-->[androidx.window:window:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/7da06a65f0da853f847ffe05942799c5/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+205
+206        <provider
+206-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:31:9-39:20
+207            android:name="androidx.startup.InitializationProvider"
+207-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:32:13-67
+208            android:authorities="org.prebid.veondemo.androidx-startup"
+208-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:33:13-68
+209            android:exported="false" >
+209-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:34:13-37
+210            <meta-data
+210-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:36:13-38:52
+211                android:name="androidx.work.WorkManagerInitializer"
+211-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:37:17-68
+212                android:value="androidx.startup" />
+212-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:38:17-49
+213            <meta-data
+213-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/kretsu/.gradle/caches/transforms-3/803db6a0d03b34455e799dac8ab9188d/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+214                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+214-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/kretsu/.gradle/caches/transforms-3/803db6a0d03b34455e799dac8ab9188d/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+215                android:value="androidx.startup" />
+215-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/kretsu/.gradle/caches/transforms-3/803db6a0d03b34455e799dac8ab9188d/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+216        </provider>
+217
+218        <service
+218-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:41:9-46:35
+219            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+219-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:42:13-88
+220            android:directBootAware="false"
+220-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:43:13-44
+221            android:enabled="@bool/enable_system_alarm_service_default"
+221-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:44:13-72
+222            android:exported="false" />
+222-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:45:13-37
+223        <service
+223-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:47:9-53:35
+224            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+224-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:48:13-84
+225            android:directBootAware="false"
+225-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:49:13-44
+226            android:enabled="@bool/enable_system_job_service_default"
+226-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:50:13-70
+227            android:exported="true"
+227-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:51:13-36
+228            android:permission="android.permission.BIND_JOB_SERVICE" />
+228-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:52:13-69
+229        <service
+229-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:54:9-59:35
+230            android:name="androidx.work.impl.foreground.SystemForegroundService"
+230-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:55:13-81
+231            android:directBootAware="false"
+231-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:56:13-44
+232            android:enabled="@bool/enable_system_foreground_service_default"
+232-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:57:13-77
+233            android:exported="false" />
+233-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:58:13-37
+234
+235        <receiver
+235-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:61:9-66:35
+236            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+236-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:62:13-88
+237            android:directBootAware="false"
+237-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:63:13-44
+238            android:enabled="true"
+238-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:64:13-35
+239            android:exported="false" />
+239-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:65:13-37
+240        <receiver
+240-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:67:9-77:20
+241            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+241-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:68:13-106
+242            android:directBootAware="false"
+242-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:69:13-44
+243            android:enabled="false"
+243-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:70:13-36
+244            android:exported="false" >
+244-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:71:13-37
+245            <intent-filter>
+245-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:73:13-76:29
+246                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+246-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:74:17-87
+246-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:74:25-84
+247                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+247-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:75:17-90
+247-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:75:25-87
+248            </intent-filter>
+249        </receiver>
+250        <receiver
+250-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:78:9-88:20
+251            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+251-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:79:13-104
+252            android:directBootAware="false"
+252-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:80:13-44
+253            android:enabled="false"
+253-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:81:13-36
+254            android:exported="false" >
+254-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:82:13-37
+255            <intent-filter>
+255-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:84:13-87:29
+256                <action android:name="android.intent.action.BATTERY_OKAY" />
+256-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:85:17-77
+256-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:85:25-74
+257                <action android:name="android.intent.action.BATTERY_LOW" />
+257-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:86:17-76
+257-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:86:25-73
+258            </intent-filter>
+259        </receiver>
+260        <receiver
+260-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:89:9-99:20
+261            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+261-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:90:13-104
+262            android:directBootAware="false"
+262-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:91:13-44
+263            android:enabled="false"
+263-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:92:13-36
+264            android:exported="false" >
+264-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:93:13-37
+265            <intent-filter>
+265-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:95:13-98:29
+266                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+266-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:96:17-83
+266-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:96:25-80
+267                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+267-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:97:17-82
+267-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:97:25-79
+268            </intent-filter>
+269        </receiver>
+270        <receiver
+270-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:100:9-109:20
+271            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+271-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:101:13-103
+272            android:directBootAware="false"
+272-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:102:13-44
+273            android:enabled="false"
+273-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:103:13-36
+274            android:exported="false" >
+274-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:104:13-37
+275            <intent-filter>
+275-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:106:13-108:29
+276                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+276-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:107:17-79
+276-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:107:25-76
+277            </intent-filter>
+278        </receiver>
+279        <receiver
+279-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:110:9-121:20
+280            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+280-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:111:13-88
+281            android:directBootAware="false"
+281-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:112:13-44
+282            android:enabled="false"
+282-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:113:13-36
+283            android:exported="false" >
+283-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:114:13-37
+284            <intent-filter>
+284-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:116:13-120:29
+285                <action android:name="android.intent.action.BOOT_COMPLETED" />
+285-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:117:17-79
+285-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:117:25-76
+286                <action android:name="android.intent.action.TIME_SET" />
+286-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:118:17-73
+286-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:118:25-70
+287                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+287-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:119:17-81
+287-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:119:25-78
+288            </intent-filter>
+289        </receiver>
+290        <receiver
+290-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:122:9-131:20
+291            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+291-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:123:13-99
+292            android:directBootAware="false"
+292-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:124:13-44
+293            android:enabled="@bool/enable_system_alarm_service_default"
+293-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:125:13-72
+294            android:exported="false" >
+294-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:126:13-37
+295            <intent-filter>
+295-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:128:13-130:29
+296                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+296-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:129:17-98
+296-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:129:25-95
+297            </intent-filter>
+298        </receiver>
+299        <receiver
+299-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:132:9-142:20
+300            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+300-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:133:13-78
+301            android:directBootAware="false"
+301-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:134:13-44
+302            android:enabled="true"
+302-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:135:13-35
+303            android:exported="true"
+303-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:136:13-36
+304            android:permission="android.permission.DUMP" >
+304-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:137:13-57
+305            <intent-filter>
+305-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:139:13-141:29
+306                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+306-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:17-88
+306-->[androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:25-85
+307            </intent-filter>
+308        </receiver>
+309
+310        <service
+310-->[androidx.room:room-runtime:2.2.5] /Users/kretsu/.gradle/caches/transforms-3/5e1623aa7602c6680d68e86c2a2fbde5/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+311            android:name="androidx.room.MultiInstanceInvalidationService"
+311-->[androidx.room:room-runtime:2.2.5] /Users/kretsu/.gradle/caches/transforms-3/5e1623aa7602c6680d68e86c2a2fbde5/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+312            android:directBootAware="true"
+312-->[androidx.room:room-runtime:2.2.5] /Users/kretsu/.gradle/caches/transforms-3/5e1623aa7602c6680d68e86c2a2fbde5/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+313            android:exported="false" />
+313-->[androidx.room:room-runtime:2.2.5] /Users/kretsu/.gradle/caches/transforms-3/5e1623aa7602c6680d68e86c2a2fbde5/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+314    </application>
+315
+316</manifest>

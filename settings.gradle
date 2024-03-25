@@ -1,0 +1,13 @@
+include ':app'
+rootProject.name = "Weather App"
+
+sourceControl {
+    gitRepository("ssh://git@github.com/veonadtech/prebid-android-sdk.git") {
+        producesModule("org.prebid:prebid-mobile-sdk")
+    }
+}
+include ':PrebidMobile-core'
+include ':omsdk-android'
+include ':test-utils'
+include ':PrebidMobile'
+include ':PrebidMobile-gamEventHandlers'

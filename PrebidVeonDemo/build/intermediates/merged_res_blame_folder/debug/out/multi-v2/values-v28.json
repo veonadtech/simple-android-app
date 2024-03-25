@@ -1,0 +1,47 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.prebid.veondemo.PrebidVeonDemo-mergeDebugResources-44:/values-v28/values-v28.xml",
+            "map": [
+                {
+                    "source": "/Users/kretsu/.gradle/caches/transforms-3/feefcf42ad0a0bb661481570e82dea9b/transformed/appcompat-1.3.0/res/values-v28/values-v28.xml",
+                    "from": {
+                        "startLines": "2,3,4,8",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,447",
+                        "endLines": "2,3,7,11",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,442,684"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,8",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,397",
+                        "endLines": "2,3,7,11",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,392,584"
+                    }
+                },
+                {
+                    "source": "/Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile-core/build/intermediates/packaged_res/debug/values-v28/values-v28.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "709"
+                    },
+                    "to": {
+                        "startLines": "12",
+                        "startColumns": "4",
+                        "startOffsets": "589",
+                        "endLines": "24",
+                        "endColumns": "12",
+                        "endOffsets": "1243"
+                    }
+                }
+            ]
+        }
+    ]
+}

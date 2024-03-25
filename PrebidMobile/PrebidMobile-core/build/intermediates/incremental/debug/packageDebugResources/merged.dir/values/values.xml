@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="web_view_banner" type="id"/>
+    <string name="text_learn_more">Learn More</string>
+    <string name="watch_again">Watch Again</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light"/>
+    <style name="AppTheme" parent="AppBaseTheme"/>
+    <style name="FullScreenDialogTheme" parent="android:Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:colorBackground">@android:color/black</item>
+    </style>
+    <declare-styleable name="BannerView">
+        <attr format="string" name="configId"/>
+        <attr format="integer" name="adWidth"/>
+        <attr format="integer" name="adHeight"/>
+        <attr format="integer" name="refreshIntervalSec"/>
+    </declare-styleable>
+</resources>

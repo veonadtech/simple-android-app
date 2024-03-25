@@ -1,0 +1,41 @@
+R_DEF: Internal format may change without notice
+local
+attr? adHeight
+attr? adWidth
+attr? configId
+attr? refreshIntervalSec
+drawable drw_button_rounded_outlined
+drawable drw_timer_circle
+drawable ic_volume_off
+drawable ic_volume_on
+drawable prebid_ic_back_active
+drawable prebid_ic_back_inactive
+drawable prebid_ic_close_browser
+drawable prebid_ic_close_interstitial
+drawable prebid_ic_forth_active
+drawable prebid_ic_forth_inactive
+drawable prebid_ic_media_next
+drawable prebid_ic_open_in_browser
+drawable prebid_ic_refresh
+id Progress
+id btn_watch_again
+id iv_close_interstitial
+id iv_skip
+id iv_sound_interstitial
+id lblCountdown
+id lytCountdown
+id rl_count_down
+id tv_learn_more
+id web_view_banner
+layout lyt_call_to_action
+layout lyt_close
+layout lyt_countdown_circle_overlay
+layout lyt_skip
+layout lyt_sound
+layout lyt_watch_again
+string text_learn_more
+string watch_again
+style AppBaseTheme
+style AppTheme
+style FullScreenDialogTheme
+styleable BannerView configId adWidth adHeight refreshIntervalSec

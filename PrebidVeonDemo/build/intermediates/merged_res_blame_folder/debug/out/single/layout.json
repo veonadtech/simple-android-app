@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "org.prebid.veondemo.PrebidVeonDemo-mergeDebugResources-45:/layout/list_item_ad_type.xml",
+        "source": "org.prebid.veondemo.PrebidVeonDemo-main-48:/layout/list_item_ad_type.xml"
+    },
+    {
+        "merged": "org.prebid.veondemo.PrebidVeonDemo-mergeDebugResources-45:/layout/activity_demo.xml",
+        "source": "org.prebid.veondemo.PrebidVeonDemo-main-48:/layout/activity_demo.xml"
+    },
+    {
+        "merged": "org.prebid.veondemo.PrebidVeonDemo-mergeDebugResources-45:/layout/view_native_ad_max.xml",
+        "source": "org.prebid.veondemo.PrebidVeonDemo-main-48:/layout/view_native_ad_max.xml"
+    },
+    {
+        "merged": "org.prebid.veondemo.PrebidVeonDemo-mergeDebugResources-45:/layout/activity_settings.xml",
+        "source": "org.prebid.veondemo.PrebidVeonDemo-main-48:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "org.prebid.veondemo.PrebidVeonDemo-mergeDebugResources-45:/layout/view_native_ad_ad_mob.xml",
+        "source": "org.prebid.veondemo.PrebidVeonDemo-main-48:/layout/view_native_ad_ad_mob.xml"
+    },
+    {
+        "merged": "org.prebid.veondemo.PrebidVeonDemo-mergeDebugResources-45:/layout/activity_main.xml",
+        "source": "org.prebid.veondemo.PrebidVeonDemo-main-48:/layout/activity_main.xml"
+    }
+]

@@ -1,0 +1,35 @@
+ext {
+    prebidSdkVersionName = "2.1.4"
+    prebidSdkMinVersion = 16
+    prebidSdkTargetVersion = 32
+    prebidSdkCompileVersion = 33
+    prebidSdkBuildToolsVersion = "30.0.3"
+
+    artifactGroupId = "org.prebid"
+    artifactFolder = "${buildDir}/generated-artifacts"
+    omSdkVersion = "1.4.1"
+    omSdkModuleName = "omsdk-android"
+}
+
+buildscript {
+    ext.kotlin_version = '1.8.0'
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.3.1'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://maven.google.com' }
+        maven { url 'https://jitpack.io' }
+        maven { url "https://oss.sonatype.org/content/repositories/orgprebid-1079" }
+    }
+}

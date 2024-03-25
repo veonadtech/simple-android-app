@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Weather_App.iml" filepath="$PROJECT_DIR$/.idea/modules/Weather_App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PrebidMobile/Weather_App.PrebidMobile.iml" filepath="$PROJECT_DIR$/.idea/modules/PrebidMobile/Weather_App.PrebidMobile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PrebidMobile-core/Weather_App.PrebidMobile-core.iml" filepath="$PROJECT_DIR$/.idea/modules/PrebidMobile-core/Weather_App.PrebidMobile-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PrebidMobile-core/Weather_App.PrebidMobile-core.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/PrebidMobile-core/Weather_App.PrebidMobile-core.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PrebidMobile-core/Weather_App.PrebidMobile-core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/PrebidMobile-core/Weather_App.PrebidMobile-core.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PrebidMobile-core/Weather_App.PrebidMobile-core.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/PrebidMobile-core/Weather_App.PrebidMobile-core.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PrebidMobile-gamEventHandlers/Weather_App.PrebidMobile-gamEventHandlers.iml" filepath="$PROJECT_DIR$/.idea/modules/PrebidMobile-gamEventHandlers/Weather_App.PrebidMobile-gamEventHandlers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PrebidMobile-gamEventHandlers/Weather_App.PrebidMobile-gamEventHandlers.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/PrebidMobile-gamEventHandlers/Weather_App.PrebidMobile-gamEventHandlers.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PrebidMobile-gamEventHandlers/Weather_App.PrebidMobile-gamEventHandlers.main.iml" filepath="$PROJECT_DIR$/.idea/modules/PrebidMobile-gamEventHandlers/Weather_App.PrebidMobile-gamEventHandlers.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PrebidMobile-gamEventHandlers/Weather_App.PrebidMobile-gamEventHandlers.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/PrebidMobile-gamEventHandlers/Weather_App.PrebidMobile-gamEventHandlers.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PrebidMobile/Weather_App.PrebidMobile.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/PrebidMobile/Weather_App.PrebidMobile.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PrebidMobile/Weather_App.PrebidMobile.main.iml" filepath="$PROJECT_DIR$/.idea/modules/PrebidMobile/Weather_App.PrebidMobile.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PrebidMobile/Weather_App.PrebidMobile.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/PrebidMobile/Weather_App.PrebidMobile.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PrebidVeonDemo/Weather_App.PrebidVeonDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/PrebidVeonDemo/Weather_App.PrebidVeonDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PrebidVeonDemo/Weather_App.PrebidVeonDemo.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/PrebidVeonDemo/Weather_App.PrebidVeonDemo.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PrebidVeonDemo/Weather_App.PrebidVeonDemo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/PrebidVeonDemo/Weather_App.PrebidVeonDemo.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PrebidVeonDemo/Weather_App.PrebidVeonDemo.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/PrebidVeonDemo/Weather_App.PrebidVeonDemo.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Weather_App.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Weather_App.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Weather_App.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Weather_App.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Weather_App.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Weather_App.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Weather_App.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Weather_App.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/omsdk-android/Weather_App.omsdk-android.iml" filepath="$PROJECT_DIR$/.idea/modules/omsdk-android/Weather_App.omsdk-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test-utils/Weather_App.test-utils.iml" filepath="$PROJECT_DIR$/.idea/modules/test-utils/Weather_App.test-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test-utils/Weather_App.test-utils.main.iml" filepath="$PROJECT_DIR$/.idea/modules/test-utils/Weather_App.test-utils.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test-utils/Weather_App.test-utils.test.iml" filepath="$PROJECT_DIR$/.idea/modules/test-utils/Weather_App.test-utils.test.iml" />
+    </modules>
+  </component>
+</project>

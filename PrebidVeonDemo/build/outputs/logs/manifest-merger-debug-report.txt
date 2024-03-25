@@ -1,0 +1,990 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:2:1-46:12
+MERGED from [androidx.databinding:databinding-adapters:7.3.1] /Users/kretsu/.gradle/caches/transforms-3/1054d1293fb3297a44fccfe0ff37fa21/transformed/databinding-adapters-7.3.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.databinding:databinding-ktx:7.3.1] /Users/kretsu/.gradle/caches/transforms-3/24049310e6e7e7f0d52ff0360c903b6a/transformed/jetified-databinding-ktx-7.3.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.databinding:databinding-runtime:7.3.1] /Users/kretsu/.gradle/caches/transforms-3/7f24a35c482e8994b9cead55d54bda1c/transformed/databinding-runtime-7.3.1/AndroidManifest.xml:2:1-9:12
+MERGED from [:PrebidMobile-gamEventHandlers] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile-gamEventHandlers/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:1-27:12
+MERGED from [:PrebidMobile] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/800f988b4cd3fb49c9aa107ba5e8a8af/transformed/jetified-play-services-ads-23.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] /Users/kretsu/.gradle/caches/transforms-3/2e66c9051a760fd02c9f1ebd6a016ea9/transformed/jetified-ads-adservices-java-1.0.0-beta05/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/kretsu/.gradle/caches/transforms-3/3eff2d1e2d4360f3b9bca6c1707748d7/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.preference:preference-ktx:1.2.0] /Users/kretsu/.gradle/caches/transforms-3/a65ed03877fb8bbb07f3ec405e821bb0/transformed/jetified-preference-ktx-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:extension-ima:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/1fd16406766283c83a70741e76e25ad2/transformed/jetified-extension-ima-2.15.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.preference:preference:1.2.0] /Users/kretsu/.gradle/caches/transforms-3/a009dddd7eba4bc190c3b9d584e23187/transformed/preference-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] /Users/kretsu/.gradle/caches/transforms-3/5268726deb6569c9af24b92ee9aaca40/transformed/jetified-fragment-ktx-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.2.2] /Users/kretsu/.gradle/caches/transforms-3/94f08cdeb4b8bb493bd0d1e735a52824/transformed/jetified-activity-ktx-1.2.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] /Users/kretsu/.gradle/caches/transforms-3/08f8da9c3dc6cac3ac815108b0647d75/transformed/jetified-lifecycle-viewmodel-ktx-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.4.0] /Users/kretsu/.gradle/caches/transforms-3/986ff7c73d7fa21210913424dc091112/transformed/jetified-lifecycle-runtime-ktx-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/kretsu/.gradle/caches/transforms-3/440f287b33ecfba8689eb9d969a1aee5/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/kretsu/.gradle/caches/transforms-3/feefcf42ad0a0bb661481570e82dea9b/transformed/appcompat-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:glide:4.14.2] /Users/kretsu/.gradle/caches/transforms-3/47bf729a2d3029702f6d630d2553e384/transformed/jetified-glide-4.14.2/AndroidManifest.xml:2:1-11:12
+MERGED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:2:1-92:12
+MERGED from [:PrebidMobile-core] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-27:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.1] /Users/kretsu/.gradle/caches/transforms-3/d09ce8bcc37658434c4053e8304c45b7/transformed/jetified-play-services-ads-identifier-18.0.1/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:17:1-95:12
+MERGED from [com.google.android.gms:play-services-ads-base:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/8094a75c497754a4cddf9318731d80b4/transformed/jetified-play-services-ads-base-23.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-appset:16.0.1] /Users/kretsu/.gradle/caches/transforms-3/73047425a352d1ae86997802e72b9013/transformed/jetified-play-services-appset-16.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/kretsu/.gradle/caches/transforms-3/66bb5e29d5ddcfaed207df4b8ff1d212/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/kretsu/.gradle/caches/transforms-3/b78ff91f83182cf46e11a36667a7a2ed/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.ump:user-messaging-platform:2.2.0] /Users/kretsu/.gradle/caches/transforms-3/f54cae935468ab8aab7204fc7e29da01/transformed/jetified-user-messaging-platform-2.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/kretsu/.gradle/caches/transforms-3/272ee49d01afebf736526cdc1fdba444/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] /Users/kretsu/.gradle/caches/transforms-3/41c60b356650ee8a4d14ce62dda6bf6f/transformed/jetified-play-services-measurement-base-20.1.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/kretsu/.gradle/caches/transforms-3/99333143697d8903a8b5fb395f3acbba/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/kretsu/.gradle/caches/transforms-3/247df9fc991ac43e99ec8e6d670b8a9c/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /Users/kretsu/.gradle/caches/transforms-3/561fa77f1c875fedc0b8ca6938ab36c9/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/acc52748a45d589d7d83ddbff3aecf69/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/kretsu/.gradle/caches/transforms-3/00ac023e6762a5185c1d46ef2ea07672/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/kretsu/.gradle/caches/transforms-3/0ace8f45800968924e874b362c358dd7/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/kretsu/.gradle/caches/transforms-3/f003498d65640cfee6fe30b09780c409/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/7da06a65f0da853f847ffe05942799c5/transformed/jetified-window-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/kretsu/.gradle/caches/transforms-3/85692023b8dddf23d070814e2e5c5433/transformed/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.exoplayer:exoplayer:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/a4f74269e2f0d44bd587ac193c12fe5b/transformed/jetified-exoplayer-2.15.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/3155e10622a0b2ea424045d15b724865/transformed/jetified-exoplayer-ui-2.15.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/60cca57f2ea93609333dc78b43eea67d/transformed/jetified-exoplayer-dash-2.15.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/7e699312a45710ebb6fd1e04d2b5ab95/transformed/jetified-exoplayer-hls-2.15.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-rtsp:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/84e08778f5fbf23a0f50132cc937222a/transformed/jetified-exoplayer-rtsp-2.15.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/012d8e35824e8d6c5dd6fbacbf93a891/transformed/jetified-exoplayer-smoothstreaming-2.15.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-transformer:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/1dc1f019dd7da650e81025e487b49fc0/transformed/jetified-exoplayer-transformer-2.15.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/828d9ad8a218f10f782105289b0b0349/transformed/jetified-exoplayer-core-2.15.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/kretsu/.gradle/caches/transforms-3/6b09e18388c2a398a69027f0b690d7be/transformed/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] /Users/kretsu/.gradle/caches/transforms-3/c56b89af1d188dc7908343e3dc42f972/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/kretsu/.gradle/caches/transforms-3/3537edda8c78e0c4271b49ab045d2bb4/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/kretsu/.gradle/caches/transforms-3/8736a4a4100a5912c1215f5daf9093ce/transformed/recyclerview-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.3.1] /Users/kretsu/.gradle/caches/transforms-3/dfa139fa88956324d5fefecbac030e12/transformed/media-1.3.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/kretsu/.gradle/caches/transforms-3/c548344c0a63eccae2476c009e89de55/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/585adae701ab48c10ac534b60e8824b5/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/c3dee9d4e75559549ceaa388f1478921/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/kretsu/.gradle/caches/transforms-3/9ff9aec4fd4252ffef4b07b1f0d9eeb7/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.4.1] /Users/kretsu/.gradle/caches/transforms-3/30868380082d2d3571bf66d0db353b4b/transformed/transition-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.8.0] /Users/kretsu/.gradle/caches/transforms-3/87294d110da4c4c3391625c9387a5033/transformed/jetified-core-ktx-1.8.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:17:1-145:12
+MERGED from [androidx.core:core:1.8.0] /Users/kretsu/.gradle/caches/transforms-3/c8447b065dcc7232cc0948048f045f03/transformed/core-1.8.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/kretsu/.gradle/caches/transforms-3/fa01b6ea80df603e409f5b338b263b5a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.databinding:viewbinding:7.3.1] /Users/kretsu/.gradle/caches/transforms-3/5342e3ad737eab00cfd389ae7b4bf183/transformed/jetified-viewbinding-7.3.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/kretsu/.gradle/caches/transforms-3/803db6a0d03b34455e799dac8ab9188d/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.4.0] /Users/kretsu/.gradle/caches/transforms-3/678c8f021a1b31c9771614776e2e105e/transformed/jetified-lifecycle-service-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/kretsu/.gradle/caches/transforms-3/35919e4663cc200624f194dbd57b02bf/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.0] /Users/kretsu/.gradle/caches/transforms-3/786344e423b8d4799533ef11ed3cbcf5/transformed/lifecycle-livedata-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /Users/kretsu/.gradle/caches/transforms-3/2530e2f2e8befea1272d6e3847643111/transformed/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/kretsu/.gradle/caches/transforms-3/6591b5b47363eb62a7db8a199b311e60/transformed/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/kretsu/.gradle/caches/transforms-3/d06eddb33fa4f7256a41b80727cc7268/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/3c678a2bf654801f405e0417b87a8303/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] /Users/kretsu/.gradle/caches/transforms-3/df6fe45a97f687aefc910974f648663c/transformed/jetified-gifdecoder-4.14.2/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/kretsu/.gradle/caches/transforms-3/136d735a832eae101ae2566aeae95f7e/transformed/exifinterface-1.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/f2bd50d53beb256ab7c4a529b7274cd8/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/39a587e94b6d8a6732c01216d89c14b7/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/f4a995d6224aaa08593a52ce0611bdd3/transformed/jetified-exoplayer-extractor-2.15.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/6cb78f5e27e9520229969fb69268d7ba/transformed/jetified-exoplayer-common-2.15.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/kretsu/.gradle/caches/transforms-3/72ab5037a829ee8883beb08bda295fd3/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/kretsu/.gradle/caches/transforms-3/5e1623aa7602c6680d68e86c2a2fbde5/transformed/room-runtime-2.2.5/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/kretsu/.gradle/caches/transforms-3/c5af4d78e0ba09487f93c2916c34d2fd/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/f1810d1ce5dd6ec84773d551225f2f6a/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/6438d145f081bd2212bfcd0c5583f533/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/kretsu/.gradle/caches/transforms-3/27e7fe6c4bec9ea3ffbb70d10b0607f1/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/kretsu/.gradle/caches/transforms-3/82e574c72074f0c827f7ab47cc9de93b/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [:omsdk-android] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/omsdk-android/build/.transforms/ce92b050ee14e63a1c26771be5bce2e0/transformed/jetified-omsdk-android-1.4.1/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/kretsu/.gradle/caches/transforms-3/bbe1bb0f151542c796029bdff7bc09ee/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:2:1-46:12
+	package
+		ADDED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:3:11-40
+		INJECTED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml
+		INJECTED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml
+		ADDED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:2:1-46:12
+		INJECTED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml
+		ADDED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:2:1-46:12
+		INJECTED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:6:5-66
+MERGED from [:PrebidMobile-gamEventHandlers] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile-gamEventHandlers/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:5-67
+MERGED from [:PrebidMobile-gamEventHandlers] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile-gamEventHandlers/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:5-67
+MERGED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:17:5-67
+MERGED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:17:5-67
+MERGED from [:PrebidMobile-core] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:PrebidMobile-core] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/kretsu/.gradle/caches/transforms-3/b78ff91f83182cf46e11a36667a7a2ed/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/kretsu/.gradle/caches/transforms-3/b78ff91f83182cf46e11a36667a7a2ed/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:23:5-67
+MERGED from [:omsdk-android] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/omsdk-android/build/.transforms/ce92b050ee14e63a1c26771be5bce2e0/transformed/jetified-omsdk-android-1.4.1/AndroidManifest.xml:9:5-67
+MERGED from [:omsdk-android] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/omsdk-android/build/.transforms/ce92b050ee14e63a1c26771be5bce2e0/transformed/jetified-omsdk-android-1.4.1/AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:7:5-78
+MERGED from [:PrebidMobile-gamEventHandlers] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile-gamEventHandlers/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:5-79
+MERGED from [:PrebidMobile-gamEventHandlers] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile-gamEventHandlers/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:5-79
+MERGED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:18:5-79
+MERGED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:18:5-79
+MERGED from [:PrebidMobile-core] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-79
+MERGED from [:PrebidMobile-core] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/kretsu/.gradle/caches/transforms-3/b78ff91f83182cf46e11a36667a7a2ed/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/kretsu/.gradle/caches/transforms-3/b78ff91f83182cf46e11a36667a7a2ed/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/828d9ad8a218f10f782105289b0b0349/transformed/jetified-exoplayer-core-2.15.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/828d9ad8a218f10f782105289b0b0349/transformed/jetified-exoplayer-core-2.15.1/AndroidManifest.xml:24:5-79
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:26:5-79
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/6cb78f5e27e9520229969fb69268d7ba/transformed/jetified-exoplayer-common-2.15.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/6cb78f5e27e9520229969fb69268d7ba/transformed/jetified-exoplayer-common-2.15.1/AndroidManifest.xml:24:5-79
+MERGED from [:omsdk-android] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/omsdk-android/build/.transforms/ce92b050ee14e63a1c26771be5bce2e0/transformed/jetified-omsdk-android-1.4.1/AndroidManifest.xml:10:5-79
+MERGED from [:omsdk-android] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/omsdk-android/build/.transforms/ce92b050ee14e63a1c26771be5bce2e0/transformed/jetified-omsdk-android-1.4.1/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:10:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:11:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:14:22-78
+application
+ADDED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:16:5-44:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/kretsu/.gradle/caches/transforms-3/3eff2d1e2d4360f3b9bca6c1707748d7/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/kretsu/.gradle/caches/transforms-3/3eff2d1e2d4360f3b9bca6c1707748d7/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.exoplayer:extension-ima:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/1fd16406766283c83a70741e76e25ad2/transformed/jetified-extension-ima-2.15.1/AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.android.exoplayer:extension-ima:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/1fd16406766283c83a70741e76e25ad2/transformed/jetified-extension-ima-2.15.1/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/kretsu/.gradle/caches/transforms-3/440f287b33ecfba8689eb9d969a1aee5/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/kretsu/.gradle/caches/transforms-3/440f287b33ecfba8689eb9d969a1aee5/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.14.2] /Users/kretsu/.gradle/caches/transforms-3/47bf729a2d3029702f6d630d2553e384/transformed/jetified-glide-4.14.2/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.14.2] /Users/kretsu/.gradle/caches/transforms-3/47bf729a2d3029702f6d630d2553e384/transformed/jetified-glide-4.14.2/AndroidManifest.xml:9:5-20
+MERGED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:25:5-90:19
+MERGED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:25:5-90:19
+MERGED from [:PrebidMobile-core] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-25:19
+MERGED from [:PrebidMobile-core] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-25:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.1] /Users/kretsu/.gradle/caches/transforms-3/d09ce8bcc37658434c4053e8304c45b7/transformed/jetified-play-services-ads-identifier-18.0.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.1] /Users/kretsu/.gradle/caches/transforms-3/d09ce8bcc37658434c4053e8304c45b7/transformed/jetified-play-services-ads-identifier-18.0.1/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:53:5-93:19
+MERGED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:53:5-93:19
+MERGED from [com.google.android.gms:play-services-ads-base:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/8094a75c497754a4cddf9318731d80b4/transformed/jetified-play-services-ads-base-23.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/8094a75c497754a4cddf9318731d80b4/transformed/jetified-play-services-ads-base-23.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-appset:16.0.1] /Users/kretsu/.gradle/caches/transforms-3/73047425a352d1ae86997802e72b9013/transformed/jetified-play-services-appset-16.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-appset:16.0.1] /Users/kretsu/.gradle/caches/transforms-3/73047425a352d1ae86997802e72b9013/transformed/jetified-play-services-appset-16.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/kretsu/.gradle/caches/transforms-3/66bb5e29d5ddcfaed207df4b8ff1d212/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/kretsu/.gradle/caches/transforms-3/66bb5e29d5ddcfaed207df4b8ff1d212/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/kretsu/.gradle/caches/transforms-3/272ee49d01afebf736526cdc1fdba444/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/kretsu/.gradle/caches/transforms-3/272ee49d01afebf736526cdc1fdba444/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] /Users/kretsu/.gradle/caches/transforms-3/41c60b356650ee8a4d14ce62dda6bf6f/transformed/jetified-play-services-measurement-base-20.1.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] /Users/kretsu/.gradle/caches/transforms-3/41c60b356650ee8a4d14ce62dda6bf6f/transformed/jetified-play-services-measurement-base-20.1.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/kretsu/.gradle/caches/transforms-3/99333143697d8903a8b5fb395f3acbba/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/kretsu/.gradle/caches/transforms-3/99333143697d8903a8b5fb395f3acbba/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.window:window:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/7da06a65f0da853f847ffe05942799c5/transformed/jetified-window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/7da06a65f0da853f847ffe05942799c5/transformed/jetified-window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.core:core:1.8.0] /Users/kretsu/.gradle/caches/transforms-3/c8447b065dcc7232cc0948048f045f03/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.8.0] /Users/kretsu/.gradle/caches/transforms-3/c8447b065dcc7232cc0948048f045f03/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/kretsu/.gradle/caches/transforms-3/fa01b6ea80df603e409f5b338b263b5a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/kretsu/.gradle/caches/transforms-3/fa01b6ea80df603e409f5b338b263b5a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/kretsu/.gradle/caches/transforms-3/803db6a0d03b34455e799dac8ab9188d/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/kretsu/.gradle/caches/transforms-3/803db6a0d03b34455e799dac8ab9188d/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] /Users/kretsu/.gradle/caches/transforms-3/df6fe45a97f687aefc910974f648663c/transformed/jetified-gifdecoder-4.14.2/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] /Users/kretsu/.gradle/caches/transforms-3/df6fe45a97f687aefc910974f648663c/transformed/jetified-gifdecoder-4.14.2/AndroidManifest.xml:9:5-20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/f2bd50d53beb256ab7c4a529b7274cd8/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/f2bd50d53beb256ab7c4a529b7274cd8/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/kretsu/.gradle/caches/transforms-3/5e1623aa7602c6680d68e86c2a2fbde5/transformed/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/kretsu/.gradle/caches/transforms-3/5e1623aa7602c6680d68e86c2a2fbde5/transformed/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.8.0] /Users/kretsu/.gradle/caches/transforms-3/c8447b065dcc7232cc0948048f045f03/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:22:9-35
+	android:label
+		ADDED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:20:9-41
+	android:roundIcon
+		ADDED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:21:9-54
+	android:icon
+		ADDED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:19:9-43
+	android:allowBackup
+		ADDED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:18:9-35
+	android:theme
+		ADDED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:24:9-40
+	android:networkSecurityConfig
+		ADDED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:23:9-69
+	android:name
+		ADDED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:17:9-29
+meta-data#com.google.android.gms.ads.APPLICATION_ID
+ADDED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:26:9-28:70
+	android:value
+		ADDED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:28:13-67
+	android:name
+		ADDED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:27:13-69
+meta-data#applovin.sdk.key
+ADDED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:30:9-32:118
+	android:value
+		ADDED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:32:13-115
+	android:name
+		ADDED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:31:13-44
+activity#org.prebid.veondemo.activities.MainActivity
+ADDED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:34:9-42:20
+	android:exported
+		ADDED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:36:13-36
+	android:name
+		ADDED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:35:13-71
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:37:13-41:29
+action#android.intent.action.MAIN
+ADDED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:38:17-69
+	android:name
+		ADDED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:38:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:40:17-77
+	android:name
+		ADDED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml:40:27-74
+uses-sdk
+INJECTED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml
+INJECTED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:7.3.1] /Users/kretsu/.gradle/caches/transforms-3/1054d1293fb3297a44fccfe0ff37fa21/transformed/databinding-adapters-7.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:databinding-adapters:7.3.1] /Users/kretsu/.gradle/caches/transforms-3/1054d1293fb3297a44fccfe0ff37fa21/transformed/databinding-adapters-7.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:databinding-ktx:7.3.1] /Users/kretsu/.gradle/caches/transforms-3/24049310e6e7e7f0d52ff0360c903b6a/transformed/jetified-databinding-ktx-7.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:databinding-ktx:7.3.1] /Users/kretsu/.gradle/caches/transforms-3/24049310e6e7e7f0d52ff0360c903b6a/transformed/jetified-databinding-ktx-7.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:databinding-runtime:7.3.1] /Users/kretsu/.gradle/caches/transforms-3/7f24a35c482e8994b9cead55d54bda1c/transformed/databinding-runtime-7.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:databinding-runtime:7.3.1] /Users/kretsu/.gradle/caches/transforms-3/7f24a35c482e8994b9cead55d54bda1c/transformed/databinding-runtime-7.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [:PrebidMobile-gamEventHandlers] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile-gamEventHandlers/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:5-22:41
+MERGED from [:PrebidMobile-gamEventHandlers] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile-gamEventHandlers/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:5-22:41
+MERGED from [:PrebidMobile] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:PrebidMobile] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-ads:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/800f988b4cd3fb49c9aa107ba5e8a8af/transformed/jetified-play-services-ads-23.0.0/AndroidManifest.xml:21:5-23:52
+MERGED from [com.google.android.gms:play-services-ads:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/800f988b4cd3fb49c9aa107ba5e8a8af/transformed/jetified-play-services-ads-23.0.0/AndroidManifest.xml:21:5-23:52
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] /Users/kretsu/.gradle/caches/transforms-3/2e66c9051a760fd02c9f1ebd6a016ea9/transformed/jetified-ads-adservices-java-1.0.0-beta05/AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] /Users/kretsu/.gradle/caches/transforms-3/2e66c9051a760fd02c9f1ebd6a016ea9/transformed/jetified-ads-adservices-java-1.0.0-beta05/AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/kretsu/.gradle/caches/transforms-3/3eff2d1e2d4360f3b9bca6c1707748d7/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/kretsu/.gradle/caches/transforms-3/3eff2d1e2d4360f3b9bca6c1707748d7/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.preference:preference-ktx:1.2.0] /Users/kretsu/.gradle/caches/transforms-3/a65ed03877fb8bbb07f3ec405e821bb0/transformed/jetified-preference-ktx-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference-ktx:1.2.0] /Users/kretsu/.gradle/caches/transforms-3/a65ed03877fb8bbb07f3ec405e821bb0/transformed/jetified-preference-ktx-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:extension-ima:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/1fd16406766283c83a70741e76e25ad2/transformed/jetified-extension-ima-2.15.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:extension-ima:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/1fd16406766283c83a70741e76e25ad2/transformed/jetified-extension-ima-2.15.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.0] /Users/kretsu/.gradle/caches/transforms-3/a009dddd7eba4bc190c3b9d584e23187/transformed/preference-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.0] /Users/kretsu/.gradle/caches/transforms-3/a009dddd7eba4bc190c3b9d584e23187/transformed/preference-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] /Users/kretsu/.gradle/caches/transforms-3/5268726deb6569c9af24b92ee9aaca40/transformed/jetified-fragment-ktx-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] /Users/kretsu/.gradle/caches/transforms-3/5268726deb6569c9af24b92ee9aaca40/transformed/jetified-fragment-ktx-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.2] /Users/kretsu/.gradle/caches/transforms-3/94f08cdeb4b8bb493bd0d1e735a52824/transformed/jetified-activity-ktx-1.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.2] /Users/kretsu/.gradle/caches/transforms-3/94f08cdeb4b8bb493bd0d1e735a52824/transformed/jetified-activity-ktx-1.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] /Users/kretsu/.gradle/caches/transforms-3/08f8da9c3dc6cac3ac815108b0647d75/transformed/jetified-lifecycle-viewmodel-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1] /Users/kretsu/.gradle/caches/transforms-3/08f8da9c3dc6cac3ac815108b0647d75/transformed/jetified-lifecycle-viewmodel-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.4.0] /Users/kretsu/.gradle/caches/transforms-3/986ff7c73d7fa21210913424dc091112/transformed/jetified-lifecycle-runtime-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.4.0] /Users/kretsu/.gradle/caches/transforms-3/986ff7c73d7fa21210913424dc091112/transformed/jetified-lifecycle-runtime-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/kretsu/.gradle/caches/transforms-3/440f287b33ecfba8689eb9d969a1aee5/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/kretsu/.gradle/caches/transforms-3/440f287b33ecfba8689eb9d969a1aee5/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/kretsu/.gradle/caches/transforms-3/feefcf42ad0a0bb661481570e82dea9b/transformed/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/kretsu/.gradle/caches/transforms-3/feefcf42ad0a0bb661481570e82dea9b/transformed/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:glide:4.14.2] /Users/kretsu/.gradle/caches/transforms-3/47bf729a2d3029702f6d630d2553e384/transformed/jetified-glide-4.14.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.14.2] /Users/kretsu/.gradle/caches/transforms-3/47bf729a2d3029702f6d630d2553e384/transformed/jetified-glide-4.14.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:7:5-9:41
+MERGED from [:PrebidMobile-core] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:PrebidMobile-core] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.1] /Users/kretsu/.gradle/caches/transforms-3/d09ce8bcc37658434c4053e8304c45b7/transformed/jetified-play-services-ads-identifier-18.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.1] /Users/kretsu/.gradle/caches/transforms-3/d09ce8bcc37658434c4053e8304c45b7/transformed/jetified-play-services-ads-identifier-18.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/8094a75c497754a4cddf9318731d80b4/transformed/jetified-play-services-ads-base-23.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/8094a75c497754a4cddf9318731d80b4/transformed/jetified-play-services-ads-base-23.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-appset:16.0.1] /Users/kretsu/.gradle/caches/transforms-3/73047425a352d1ae86997802e72b9013/transformed/jetified-play-services-appset-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-appset:16.0.1] /Users/kretsu/.gradle/caches/transforms-3/73047425a352d1ae86997802e72b9013/transformed/jetified-play-services-appset-16.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/kretsu/.gradle/caches/transforms-3/66bb5e29d5ddcfaed207df4b8ff1d212/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/kretsu/.gradle/caches/transforms-3/66bb5e29d5ddcfaed207df4b8ff1d212/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/kretsu/.gradle/caches/transforms-3/b78ff91f83182cf46e11a36667a7a2ed/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/kretsu/.gradle/caches/transforms-3/b78ff91f83182cf46e11a36667a7a2ed/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.ump:user-messaging-platform:2.2.0] /Users/kretsu/.gradle/caches/transforms-3/f54cae935468ab8aab7204fc7e29da01/transformed/jetified-user-messaging-platform-2.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.ump:user-messaging-platform:2.2.0] /Users/kretsu/.gradle/caches/transforms-3/f54cae935468ab8aab7204fc7e29da01/transformed/jetified-user-messaging-platform-2.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/kretsu/.gradle/caches/transforms-3/272ee49d01afebf736526cdc1fdba444/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/kretsu/.gradle/caches/transforms-3/272ee49d01afebf736526cdc1fdba444/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] /Users/kretsu/.gradle/caches/transforms-3/41c60b356650ee8a4d14ce62dda6bf6f/transformed/jetified-play-services-measurement-base-20.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:20.1.2] /Users/kretsu/.gradle/caches/transforms-3/41c60b356650ee8a4d14ce62dda6bf6f/transformed/jetified-play-services-measurement-base-20.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/kretsu/.gradle/caches/transforms-3/99333143697d8903a8b5fb395f3acbba/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/kretsu/.gradle/caches/transforms-3/99333143697d8903a8b5fb395f3acbba/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/kretsu/.gradle/caches/transforms-3/247df9fc991ac43e99ec8e6d670b8a9c/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/kretsu/.gradle/caches/transforms-3/247df9fc991ac43e99ec8e6d670b8a9c/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/kretsu/.gradle/caches/transforms-3/561fa77f1c875fedc0b8ca6938ab36c9/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/kretsu/.gradle/caches/transforms-3/561fa77f1c875fedc0b8ca6938ab36c9/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/acc52748a45d589d7d83ddbff3aecf69/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/acc52748a45d589d7d83ddbff3aecf69/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/kretsu/.gradle/caches/transforms-3/00ac023e6762a5185c1d46ef2ea07672/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/kretsu/.gradle/caches/transforms-3/00ac023e6762a5185c1d46ef2ea07672/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/kretsu/.gradle/caches/transforms-3/0ace8f45800968924e874b362c358dd7/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/kretsu/.gradle/caches/transforms-3/0ace8f45800968924e874b362c358dd7/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/kretsu/.gradle/caches/transforms-3/f003498d65640cfee6fe30b09780c409/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/kretsu/.gradle/caches/transforms-3/f003498d65640cfee6fe30b09780c409/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/7da06a65f0da853f847ffe05942799c5/transformed/jetified-window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/7da06a65f0da853f847ffe05942799c5/transformed/jetified-window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/kretsu/.gradle/caches/transforms-3/85692023b8dddf23d070814e2e5c5433/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/kretsu/.gradle/caches/transforms-3/85692023b8dddf23d070814e2e5c5433/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.exoplayer:exoplayer:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/a4f74269e2f0d44bd587ac193c12fe5b/transformed/jetified-exoplayer-2.15.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/a4f74269e2f0d44bd587ac193c12fe5b/transformed/jetified-exoplayer-2.15.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/3155e10622a0b2ea424045d15b724865/transformed/jetified-exoplayer-ui-2.15.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/3155e10622a0b2ea424045d15b724865/transformed/jetified-exoplayer-ui-2.15.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/60cca57f2ea93609333dc78b43eea67d/transformed/jetified-exoplayer-dash-2.15.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/60cca57f2ea93609333dc78b43eea67d/transformed/jetified-exoplayer-dash-2.15.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/7e699312a45710ebb6fd1e04d2b5ab95/transformed/jetified-exoplayer-hls-2.15.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/7e699312a45710ebb6fd1e04d2b5ab95/transformed/jetified-exoplayer-hls-2.15.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-rtsp:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/84e08778f5fbf23a0f50132cc937222a/transformed/jetified-exoplayer-rtsp-2.15.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-rtsp:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/84e08778f5fbf23a0f50132cc937222a/transformed/jetified-exoplayer-rtsp-2.15.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/012d8e35824e8d6c5dd6fbacbf93a891/transformed/jetified-exoplayer-smoothstreaming-2.15.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/012d8e35824e8d6c5dd6fbacbf93a891/transformed/jetified-exoplayer-smoothstreaming-2.15.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-transformer:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/1dc1f019dd7da650e81025e487b49fc0/transformed/jetified-exoplayer-transformer-2.15.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-transformer:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/1dc1f019dd7da650e81025e487b49fc0/transformed/jetified-exoplayer-transformer-2.15.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/828d9ad8a218f10f782105289b0b0349/transformed/jetified-exoplayer-core-2.15.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/828d9ad8a218f10f782105289b0b0349/transformed/jetified-exoplayer-core-2.15.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/kretsu/.gradle/caches/transforms-3/6b09e18388c2a398a69027f0b690d7be/transformed/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/kretsu/.gradle/caches/transforms-3/6b09e18388c2a398a69027f0b690d7be/transformed/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/kretsu/.gradle/caches/transforms-3/c56b89af1d188dc7908343e3dc42f972/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/kretsu/.gradle/caches/transforms-3/c56b89af1d188dc7908343e3dc42f972/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/kretsu/.gradle/caches/transforms-3/3537edda8c78e0c4271b49ab045d2bb4/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/kretsu/.gradle/caches/transforms-3/3537edda8c78e0c4271b49ab045d2bb4/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/kretsu/.gradle/caches/transforms-3/8736a4a4100a5912c1215f5daf9093ce/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/kretsu/.gradle/caches/transforms-3/8736a4a4100a5912c1215f5daf9093ce/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.3.1] /Users/kretsu/.gradle/caches/transforms-3/dfa139fa88956324d5fefecbac030e12/transformed/media-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.3.1] /Users/kretsu/.gradle/caches/transforms-3/dfa139fa88956324d5fefecbac030e12/transformed/media-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/kretsu/.gradle/caches/transforms-3/c548344c0a63eccae2476c009e89de55/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/kretsu/.gradle/caches/transforms-3/c548344c0a63eccae2476c009e89de55/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/585adae701ab48c10ac534b60e8824b5/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/585adae701ab48c10ac534b60e8824b5/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/c3dee9d4e75559549ceaa388f1478921/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/c3dee9d4e75559549ceaa388f1478921/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/kretsu/.gradle/caches/transforms-3/9ff9aec4fd4252ffef4b07b1f0d9eeb7/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/kretsu/.gradle/caches/transforms-3/9ff9aec4fd4252ffef4b07b1f0d9eeb7/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/kretsu/.gradle/caches/transforms-3/30868380082d2d3571bf66d0db353b4b/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/kretsu/.gradle/caches/transforms-3/30868380082d2d3571bf66d0db353b4b/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.8.0] /Users/kretsu/.gradle/caches/transforms-3/87294d110da4c4c3391625c9387a5033/transformed/jetified-core-ktx-1.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.8.0] /Users/kretsu/.gradle/caches/transforms-3/87294d110da4c4c3391625c9387a5033/transformed/jetified-core-ktx-1.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.core:core:1.8.0] /Users/kretsu/.gradle/caches/transforms-3/c8447b065dcc7232cc0948048f045f03/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] /Users/kretsu/.gradle/caches/transforms-3/c8447b065dcc7232cc0948048f045f03/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/kretsu/.gradle/caches/transforms-3/fa01b6ea80df603e409f5b338b263b5a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/kretsu/.gradle/caches/transforms-3/fa01b6ea80df603e409f5b338b263b5a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.3.1] /Users/kretsu/.gradle/caches/transforms-3/5342e3ad737eab00cfd389ae7b4bf183/transformed/jetified-viewbinding-7.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:viewbinding:7.3.1] /Users/kretsu/.gradle/caches/transforms-3/5342e3ad737eab00cfd389ae7b4bf183/transformed/jetified-viewbinding-7.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/kretsu/.gradle/caches/transforms-3/803db6a0d03b34455e799dac8ab9188d/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/kretsu/.gradle/caches/transforms-3/803db6a0d03b34455e799dac8ab9188d/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.4.0] /Users/kretsu/.gradle/caches/transforms-3/678c8f021a1b31c9771614776e2e105e/transformed/jetified-lifecycle-service-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.4.0] /Users/kretsu/.gradle/caches/transforms-3/678c8f021a1b31c9771614776e2e105e/transformed/jetified-lifecycle-service-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/kretsu/.gradle/caches/transforms-3/35919e4663cc200624f194dbd57b02bf/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/kretsu/.gradle/caches/transforms-3/35919e4663cc200624f194dbd57b02bf/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.0] /Users/kretsu/.gradle/caches/transforms-3/786344e423b8d4799533ef11ed3cbcf5/transformed/lifecycle-livedata-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.0] /Users/kretsu/.gradle/caches/transforms-3/786344e423b8d4799533ef11ed3cbcf5/transformed/lifecycle-livedata-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /Users/kretsu/.gradle/caches/transforms-3/2530e2f2e8befea1272d6e3847643111/transformed/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /Users/kretsu/.gradle/caches/transforms-3/2530e2f2e8befea1272d6e3847643111/transformed/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/kretsu/.gradle/caches/transforms-3/6591b5b47363eb62a7db8a199b311e60/transformed/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/kretsu/.gradle/caches/transforms-3/6591b5b47363eb62a7db8a199b311e60/transformed/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/kretsu/.gradle/caches/transforms-3/d06eddb33fa4f7256a41b80727cc7268/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/kretsu/.gradle/caches/transforms-3/d06eddb33fa4f7256a41b80727cc7268/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/3c678a2bf654801f405e0417b87a8303/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/3c678a2bf654801f405e0417b87a8303/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] /Users/kretsu/.gradle/caches/transforms-3/df6fe45a97f687aefc910974f648663c/transformed/jetified-gifdecoder-4.14.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.14.2] /Users/kretsu/.gradle/caches/transforms-3/df6fe45a97f687aefc910974f648663c/transformed/jetified-gifdecoder-4.14.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/kretsu/.gradle/caches/transforms-3/136d735a832eae101ae2566aeae95f7e/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/kretsu/.gradle/caches/transforms-3/136d735a832eae101ae2566aeae95f7e/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/f2bd50d53beb256ab7c4a529b7274cd8/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/f2bd50d53beb256ab7c4a529b7274cd8/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/39a587e94b6d8a6732c01216d89c14b7/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/39a587e94b6d8a6732c01216d89c14b7/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/f4a995d6224aaa08593a52ce0611bdd3/transformed/jetified-exoplayer-extractor-2.15.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/f4a995d6224aaa08593a52ce0611bdd3/transformed/jetified-exoplayer-extractor-2.15.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/6cb78f5e27e9520229969fb69268d7ba/transformed/jetified-exoplayer-common-2.15.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/6cb78f5e27e9520229969fb69268d7ba/transformed/jetified-exoplayer-common-2.15.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/kretsu/.gradle/caches/transforms-3/72ab5037a829ee8883beb08bda295fd3/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/kretsu/.gradle/caches/transforms-3/72ab5037a829ee8883beb08bda295fd3/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/kretsu/.gradle/caches/transforms-3/5e1623aa7602c6680d68e86c2a2fbde5/transformed/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/kretsu/.gradle/caches/transforms-3/5e1623aa7602c6680d68e86c2a2fbde5/transformed/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/kretsu/.gradle/caches/transforms-3/c5af4d78e0ba09487f93c2916c34d2fd/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/kretsu/.gradle/caches/transforms-3/c5af4d78e0ba09487f93c2916c34d2fd/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/f1810d1ce5dd6ec84773d551225f2f6a/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/f1810d1ce5dd6ec84773d551225f2f6a/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/6438d145f081bd2212bfcd0c5583f533/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/6438d145f081bd2212bfcd0c5583f533/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/kretsu/.gradle/caches/transforms-3/27e7fe6c4bec9ea3ffbb70d10b0607f1/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/kretsu/.gradle/caches/transforms-3/27e7fe6c4bec9ea3ffbb70d10b0607f1/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/kretsu/.gradle/caches/transforms-3/82e574c72074f0c827f7ab47cc9de93b/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/kretsu/.gradle/caches/transforms-3/82e574c72074f0c827f7ab47cc9de93b/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [:omsdk-android] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/omsdk-android/build/.transforms/ce92b050ee14e63a1c26771be5bce2e0/transformed/jetified-omsdk-android-1.4.1/AndroidManifest.xml:5:5-7:41
+MERGED from [:omsdk-android] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/omsdk-android/build/.transforms/ce92b050ee14e63a1c26771be5bce2e0/transformed/jetified-omsdk-android-1.4.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/kretsu/.gradle/caches/transforms-3/bbe1bb0f151542c796029bdff7bc09ee/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/kretsu/.gradle/caches/transforms-3/bbe1bb0f151542c796029bdff7bc09ee/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml
+INJECTED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.android.gms:play-services-ads:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/800f988b4cd3fb49c9aa107ba5e8a8af/transformed/jetified-play-services-ads-23.0.0/AndroidManifest.xml:23:9-49
+	android:targetSdkVersion
+		INJECTED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml
+		ADDED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml
+		INJECTED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml
+		ADDED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml
+		INJECTED from /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidVeonDemo/src/main/AndroidManifest.xml
+uses-library#android.ext.adservices
+ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/kretsu/.gradle/caches/transforms-3/3eff2d1e2d4360f3b9bca6c1707748d7/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/kretsu/.gradle/caches/transforms-3/3eff2d1e2d4360f3b9bca6c1707748d7/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/kretsu/.gradle/caches/transforms-3/3eff2d1e2d4360f3b9bca6c1707748d7/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
+meta-data#com.google.android.gms.ads.AD_MANAGER_APP
+ADDED from [com.google.android.exoplayer:extension-ima:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/1fd16406766283c83a70741e76e25ad2/transformed/jetified-extension-ima-2.15.1/AndroidManifest.xml:25:9-27:36
+	android:value
+		ADDED from [com.google.android.exoplayer:extension-ima:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/1fd16406766283c83a70741e76e25ad2/transformed/jetified-extension-ima-2.15.1/AndroidManifest.xml:27:13-33
+	android:name
+		ADDED from [com.google.android.exoplayer:extension-ima:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/1fd16406766283c83a70741e76e25ad2/transformed/jetified-extension-ima-2.15.1/AndroidManifest.xml:26:13-69
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.exoplayer:extension-ima:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/1fd16406766283c83a70741e76e25ad2/transformed/jetified-extension-ima-2.15.1/AndroidManifest.xml:28:9-30:69
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/kretsu/.gradle/caches/transforms-3/99333143697d8903a8b5fb395f3acbba/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/kretsu/.gradle/caches/transforms-3/99333143697d8903a8b5fb395f3acbba/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.exoplayer:extension-ima:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/1fd16406766283c83a70741e76e25ad2/transformed/jetified-extension-ima-2.15.1/AndroidManifest.xml:30:13-66
+	android:name
+		ADDED from [com.google.android.exoplayer:extension-ima:2.15.1] /Users/kretsu/.gradle/caches/transforms-3/1fd16406766283c83a70741e76e25ad2/transformed/jetified-extension-ima-2.15.1/AndroidManifest.xml:29:13-58
+queries
+ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:11:5-15:15
+MERGED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:35:5-51:15
+MERGED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:35:5-51:15
+MERGED from [androidx.media:media:1.3.1] /Users/kretsu/.gradle/caches/transforms-3/dfa139fa88956324d5fefecbac030e12/transformed/media-1.3.1/AndroidManifest.xml:24:5-28:15
+MERGED from [androidx.media:media:1.3.1] /Users/kretsu/.gradle/caches/transforms-3/dfa139fa88956324d5fefecbac030e12/transformed/media-1.3.1/AndroidManifest.xml:24:5-28:15
+intent#action:name:com.applovin.am.intent.action.APPHUB_SERVICE
+ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:12:9-14:18
+action#com.applovin.am.intent.action.APPHUB_SERVICE
+ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:13:13-83
+	android:name
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:13:21-80
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:19:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.1] /Users/kretsu/.gradle/caches/transforms-3/d09ce8bcc37658434c4053e8304c45b7/transformed/jetified-play-services-ads-identifier-18.0.1/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.1] /Users/kretsu/.gradle/caches/transforms-3/d09ce8bcc37658434c4053e8304c45b7/transformed/jetified-play-services-ads-identifier-18.0.1/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/kretsu/.gradle/caches/transforms-3/b78ff91f83182cf46e11a36667a7a2ed/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/kretsu/.gradle/caches/transforms-3/b78ff91f83182cf46e11a36667a7a2ed/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:19:22-76
+uses-permission#com.applovin.array.apphub.permission.BIND_APPHUB_SERVICE
+ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:20:5-96
+	android:name
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:20:22-93
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:23:5-76
+	android:name
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:23:22-73
+provider#com.applovin.sdk.AppLovinInitProvider
+ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:26:9-30:39
+	android:authorities
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:29:13-37
+	android:initOrder
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:27:13-65
+activity#com.applovin.adview.AppLovinFullscreenActivity
+ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:32:9-38:50
+	android:screenOrientation
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:38:13-47
+	android:launchMode
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:37:13-43
+	android:hardwareAccelerated
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:36:13-47
+	android:exported
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:35:13-37
+	android:configChanges
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:34:13-139
+	android:name
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:33:13-74
+activity#com.applovin.sdk.AppLovinWebViewActivity
+ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:39:9-41:142
+	android:configChanges
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:41:13-139
+	android:name
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:40:13-68
+activity#com.applovin.mediation.hybridAds.MaxHybridMRecAdActivity
+ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:44:9-46:142
+	android:configChanges
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:46:13-139
+	android:name
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:45:13-84
+activity#com.applovin.mediation.hybridAds.MaxHybridNativeAdActivity
+ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:47:9-49:142
+	android:configChanges
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:49:13-139
+	android:name
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:48:13-86
+activity#com.applovin.mediation.MaxDebuggerActivity
+ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:52:9-55:87
+	android:configChanges
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:54:13-139
+	android:theme
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:55:13-84
+	android:name
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:53:13-70
+activity#com.applovin.mediation.MaxDebuggerDetailActivity
+ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:56:9-59:87
+	android:configChanges
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:58:13-139
+	android:theme
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:59:13-84
+	android:name
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:57:13-76
+activity#com.applovin.mediation.MaxDebuggerMultiAdActivity
+ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:60:9-63:87
+	android:configChanges
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:62:13-139
+	android:theme
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:63:13-84
+	android:name
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:61:13-77
+activity#com.applovin.mediation.MaxDebuggerAdUnitsListActivity
+ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:64:9-67:87
+	android:configChanges
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:66:13-139
+	android:theme
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:67:13-84
+	android:name
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:65:13-81
+activity#com.applovin.mediation.MaxDebuggerAdUnitDetailActivity
+ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:68:9-71:87
+	android:configChanges
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:70:13-139
+	android:theme
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:71:13-84
+	android:name
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:69:13-82
+activity#com.applovin.mediation.MaxDebuggerTestLiveNetworkActivity
+ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:72:9-75:87
+	android:configChanges
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:74:13-139
+	android:theme
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:75:13-84
+	android:name
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:73:13-85
+activity#com.applovin.mediation.MaxDebuggerTestModeNetworkActivity
+ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:76:9-79:87
+	android:configChanges
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:78:13-139
+	android:theme
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:79:13-84
+	android:name
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:77:13-85
+service#com.applovin.impl.sdk.utils.AppKilledService
+ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:82:9-85:44
+	android:exported
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:84:13-37
+	android:stopWithTask
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:85:13-41
+	android:name
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:83:13-72
+service#com.applovin.impl.adview.activity.FullscreenAdService
+ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:86:9-89:44
+	android:exported
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:88:13-37
+	android:stopWithTask
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:89:13-41
+	android:name
+		ADDED from [com.applovin:applovin-sdk:11.5.3] /Users/kretsu/.gradle/caches/transforms-3/d3ccf042e63dfa400f0851c267aa81ec/transformed/jetified-applovin-sdk-11.5.3/AndroidManifest.xml:87:13-81
+uses-library#org.apache.http.legacy
+ADDED from [:PrebidMobile-core] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:40
+	android:required
+		ADDED from [:PrebidMobile-core] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+	android:name
+		ADDED from [:PrebidMobile-core] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-50
+activity#org.prebid.mobile.rendering.views.browser.AdBrowserActivity
+ADDED from [:PrebidMobile-core] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-24:67
+	android:launchMode
+		ADDED from [:PrebidMobile-core] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-43
+	android:windowSoftInputMode
+		ADDED from [:PrebidMobile-core] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-64
+	android:exported
+		ADDED from [:PrebidMobile-core] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-36
+	android:configChanges
+		ADDED from [:PrebidMobile-core] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-74
+	android:theme
+		ADDED from [:PrebidMobile-core] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-72
+	android:name
+		ADDED from [:PrebidMobile-core] /Users/kretsu/StudioProjects/Weather-Android-App-Kotlin/PrebidMobile-core/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-87
+uses-permission#android.permission.ACCESS_ADSERVICES_AD_ID
+ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:27:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:27:22-79
+uses-permission#android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:28:5-88
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:28:22-85
+uses-permission#android.permission.ACCESS_ADSERVICES_TOPICS
+ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:29:5-83
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:29:22-80
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:30:5-32:31
+REJECTED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:27:5-81
+	tools:node
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:32:9-28
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:31:9-65
+intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:scheme:https
+ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:38:9-44:18
+action#android.intent.action.VIEW
+ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:39:13-65
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:39:21-62
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:41:13-74
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:41:23-71
+data
+ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:43:13-44
+	android:scheme
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:43:19-41
+intent#action:name:android.support.customtabs.action.CustomTabsService
+ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:47:9-49:18
+action#android.support.customtabs.action.CustomTabsService
+ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:48:13-90
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:48:21-87
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:56:9-61:43
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:59:13-37
+	tools:ignore
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:61:13-40
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:58:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:60:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:57:13-65
+provider#com.google.android.gms.ads.MobileAdsInitProvider
+ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:63:9-68:43
+	android:authorities
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:65:13-73
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:66:13-37
+	tools:ignore
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:68:13-40
+	android:initOrder
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:67:13-36
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:64:13-76
+service#com.google.android.gms.ads.AdService
+ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:70:9-74:43
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:72:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:73:13-37
+	tools:ignore
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:74:13-40
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:71:13-64
+activity#com.google.android.gms.ads.OutOfContextTestingActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:76:9-80:43
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:79:13-37
+	tools:ignore
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:80:13-40
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:78:13-122
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:77:13-82
+activity#com.google.android.gms.ads.NotificationHandlerActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:81:9-88:43
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:83:13-46
+	android:launchMode
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:85:13-44
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:84:13-37
+	tools:ignore
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:88:13-40
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:87:13-72
+	android:taskAffinity
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:86:13-36
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:82:13-82
+property
+ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:90:9-92:62
+	android:resource
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:92:13-59
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:23.0.0] /Users/kretsu/.gradle/caches/transforms-3/dd00ee44e4ceb6e40db755661eed8f80/transformed/jetified-play-services-ads-lite-23.0.0/AndroidManifest.xml:91:13-65
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/kretsu/.gradle/caches/transforms-3/66bb5e29d5ddcfaed207df4b8ff1d212/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/kretsu/.gradle/caches/transforms-3/66bb5e29d5ddcfaed207df4b8ff1d212/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/kretsu/.gradle/caches/transforms-3/66bb5e29d5ddcfaed207df4b8ff1d212/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/kretsu/.gradle/caches/transforms-3/66bb5e29d5ddcfaed207df4b8ff1d212/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/kretsu/.gradle/caches/transforms-3/b78ff91f83182cf46e11a36667a7a2ed/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:25:5-68
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:25:5-68
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] /Users/kretsu/.gradle/caches/transforms-3/b78ff91f83182cf46e11a36667a7a2ed/transformed/jetified-play-services-measurement-sdk-api-20.1.2/AndroidManifest.xml:25:22-65
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/7da06a65f0da853f847ffe05942799c5/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/7da06a65f0da853f847ffe05942799c5/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/7da06a65f0da853f847ffe05942799c5/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/7da06a65f0da853f847ffe05942799c5/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/7da06a65f0da853f847ffe05942799c5/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/7da06a65f0da853f847ffe05942799c5/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+intent#action:name:android.media.browse.MediaBrowserService
+ADDED from [androidx.media:media:1.3.1] /Users/kretsu/.gradle/caches/transforms-3/dfa139fa88956324d5fefecbac030e12/transformed/media-1.3.1/AndroidManifest.xml:25:9-27:18
+action#android.media.browse.MediaBrowserService
+ADDED from [androidx.media:media:1.3.1] /Users/kretsu/.gradle/caches/transforms-3/dfa139fa88956324d5fefecbac030e12/transformed/media-1.3.1/AndroidManifest.xml:26:13-79
+	android:name
+		ADDED from [androidx.media:media:1.3.1] /Users/kretsu/.gradle/caches/transforms-3/dfa139fa88956324d5fefecbac030e12/transformed/media-1.3.1/AndroidManifest.xml:26:21-76
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:28:5-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:28:22-74
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:31:9-39:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/kretsu/.gradle/caches/transforms-3/803db6a0d03b34455e799dac8ab9188d/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/kretsu/.gradle/caches/transforms-3/803db6a0d03b34455e799dac8ab9188d/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/f2bd50d53beb256ab7c4a529b7274cd8/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/kretsu/.gradle/caches/transforms-3/f2bd50d53beb256ab7c4a529b7274cd8/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:35:13-31
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:33:13-68
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:32:13-67
+meta-data#androidx.work.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:36:13-38:52
+	android:value
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:38:17-49
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:37:17-68
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:41:9-46:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:44:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:45:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:46:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:43:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:42:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:47:9-53:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:50:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:51:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:52:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:53:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:49:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:48:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:54:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:57:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:58:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:56:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:55:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:61:9-66:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:64:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:65:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:66:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:62:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:68:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:73:13-76:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:74:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:74:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:75:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:75:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:84:13-87:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:85:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:86:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:89:9-99:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:90:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:95:13-98:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:96:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:96:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:97:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:100:9-109:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:103:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:104:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:105:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:102:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:101:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:106:13-108:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:107:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:107:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:110:9-121:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:113:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:114:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:115:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:111:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:116:13-120:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:117:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:117:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:118:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:118:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:119:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:119:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:122:9-131:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:125:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:126:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:127:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:123:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:128:13-130:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:129:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:129:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:132:9-142:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:135:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:136:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:137:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:138:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:133:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:139:13-141:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/kretsu/.gradle/caches/transforms-3/82c27415fcefa7e4a94ddc4404094664/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:25-85
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/kretsu/.gradle/caches/transforms-3/803db6a0d03b34455e799dac8ab9188d/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/kretsu/.gradle/caches/transforms-3/803db6a0d03b34455e799dac8ab9188d/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/kretsu/.gradle/caches/transforms-3/803db6a0d03b34455e799dac8ab9188d/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.5] /Users/kretsu/.gradle/caches/transforms-3/5e1623aa7602c6680d68e86c2a2fbde5/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/kretsu/.gradle/caches/transforms-3/5e1623aa7602c6680d68e86c2a2fbde5/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/kretsu/.gradle/caches/transforms-3/5e1623aa7602c6680d68e86c2a2fbde5/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/kretsu/.gradle/caches/transforms-3/5e1623aa7602c6680d68e86c2a2fbde5/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
